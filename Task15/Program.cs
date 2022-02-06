@@ -4,7 +4,7 @@ int number = 161;
 
 bool CheckOfModed(int number)
 {
-    return number % 7 == 0 && number % 23 == 0;
+    return number % 7 == 0 && number % 23 == 0; // return number % (7 * 23) == 0;
 }
 
 if (CheckOfModed(number))
