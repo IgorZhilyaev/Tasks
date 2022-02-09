@@ -11,7 +11,6 @@ if(c > max) max = c;
 
 Console.WriteLine("Максимальное число: " + max);*/
 
-
 int Max(int arg1, int arg2, int arg3)
 {
     int result = arg1;
