@@ -12,7 +12,7 @@ string[] dayOfWeek = { "понедельник", "вторник", "среда",
 int number = GetNumber();
 
 if(number == 6 || number == 7)
-    Console.WriteLine($"{number}-й день недели - это {dayOfWeek[number-1]}, выходной день.");
+    Console.WriteLine($"{number}-й день недели {dayOfWeek[number-1]}, это выходной день.");
 else
-    Console.WriteLine($"{number}-й день недели - это {dayOfWeek[number-1]}, будний день.");
+    Console.WriteLine($"{number}-й день недели {dayOfWeek[number-1]}, это будний день.");
 
