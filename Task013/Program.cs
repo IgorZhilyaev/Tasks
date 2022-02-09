@@ -25,6 +25,7 @@ else
     Console.WriteLine("Второе число не кратно первому, остаток равен: " + p);
 }*/
 
+
 int GetNumber()
 {
     int randomNumber = new Random().Next(0, 100);
