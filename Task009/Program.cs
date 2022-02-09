@@ -1,5 +1,6 @@
 ﻿// Показать последнюю цифру трёхзначного числа
 
+
 int GetLastDigit(int number)
 {
     return number % 10;
