@@ -1,5 +1,6 @@
 ﻿// Дано число. Проверить кратно ли оно 7 и 23
 
+
 int number = 161;
 
 bool CheckOfModed(int number)
