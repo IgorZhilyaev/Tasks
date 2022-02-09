@@ -1,5 +1,6 @@
 ﻿// Выяснить, явлется ли число чётным
 
+
 Random radomizer = new Random();
 int number = radomizer.Next(1, 100);
 Console.WriteLine("Сгенерированное число: " + number);
