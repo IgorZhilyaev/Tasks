@@ -1,5 +1,6 @@
 ﻿// Найти третью цифру числа или сообщить, что её нет
 
+
 Console.Write("Введите число:");
 
 string valueStr = Console.ReadLine();
