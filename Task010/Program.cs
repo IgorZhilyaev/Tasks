@@ -1,5 +1,6 @@
 ﻿// Показать вторую цифру трёхзначного числа
 
+
 int GetNumber()
 {
     int randomNumber = new Random().Next(100, 999);
@@ -11,5 +12,3 @@ Console.WriteLine($"Случайное трёхзначное число: {numbe
 
 string numberStr = number.ToString();
 Console.WriteLine($"Вторая цифра этого числа: {numberStr[1]}");
-
-
