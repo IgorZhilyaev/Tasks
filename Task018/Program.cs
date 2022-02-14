@@ -2,7 +2,7 @@
 
 void Bool(bool x, bool y)
 {
-    bool a = !(x || y) == !x && !y;
+    bool a = !(x || y) == (!x && !y);
     Console.WriteLine($"При X = {x}, Y = {y} утверждение принимает значание: {a}");
 }
 
