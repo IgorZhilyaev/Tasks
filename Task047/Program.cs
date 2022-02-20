@@ -46,3 +46,25 @@ int[] firstArray = ArrayInit(number);
 ArrayPrint(firstArray);
 Console.WriteLine();
 CopyArray(firstArray);
+
+//Копирование массива стандартными средствами.
+
+Console.WriteLine();
+
+int[] array = new int[5] {1, 2, 3, 4, 5};
+int[] copiedArr = new int[5];
+
+
+Array.Copy(array, copiedArr, array.Length);
+
+foreach (var item in array)
+{
+    Console.Write($"{item} ");
+}
+
+Console.WriteLine();
+
+foreach (var item in copiedArr)
+{
+    Console.Write($"{item} ");
+}
