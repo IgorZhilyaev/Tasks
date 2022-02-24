@@ -1,6 +1,6 @@
 ﻿// Показать двумерный массив размером m×n заполненный целыми числами.
 
-double[,] array = new double[6, 5];
+int[,] array = new int[6, 5];
 Random rand = new Random();
 void FillArray()
 {
